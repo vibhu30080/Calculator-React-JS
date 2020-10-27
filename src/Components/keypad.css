@@ -1,0 +1,39 @@
+.buttons{
+    margin-left: 10px;
+}
+.button{
+    width: 65px;
+    height: 65px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 30px;
+    margin-right: 14px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    color: aliceblue;
+    border: none;
+    transition: transform 350ms;
+    background: transparent;
+}
+.button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.equals{
+    width: 145px;
+    border-radius: 35px;
+    background-image: linear-gradient(to top, rgb(245, 41, 92), rgba(245,41,92,0.8));
+}
+.CE{
+    background-image: linear-gradient(to top, rgb(255,255,255), rgb(255,255,255));
+    color: rgb(245, 41, 92);
+}
+.C{
+    background-image: linear-gradient(to top, rgb(255,255,255), rgb(255,255,255));
+    color: rgb(245, 41, 92);
+}
+
+
+.operator{
+    background-image: linear-gradient(to top, rgb(254,108,23,1), rgba(247,135,97,1)); ;
+}
