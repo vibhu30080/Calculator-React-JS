@@ -108,7 +108,7 @@ export default class App extends React.Component{
         }
         
         else if(event === "%"){
-            this.setState({expression: this.state.result/100})
+            this.setState({result: this.state.result/100,expression: this.state.result+"%"})
         }
         else{
             if(this.state.result === "0"){
